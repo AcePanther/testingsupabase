@@ -10,6 +10,6 @@ create table if not exists users (
 
 -- Seed sample data
 insert into users (name, email) values
-  ('Alice Johnson', 'alice@example.com'),
-  ('Bob Smith', 'bob@example.com')
+  ('Amar Tejaswi', 'amart@lucidity.cloud'),
+  ('Keanu Reeves', 'keanu@amazon.com')
 on conflict (email) do nothing;
